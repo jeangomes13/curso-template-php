@@ -1,0 +1,21 @@
+{
+    "name": "jean/template",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "scripts":{
+        "server": "php -S localhost:8000 -t public"
+    },
+    "authors": [
+        {
+            "name": "jeangomes13",
+            "email": "sjean7681@gmail.com"
+        }
+    ],
+    "require": {},
+    "config": {
+        "process-timeout": 0
+    }
+}
